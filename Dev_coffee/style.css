@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+:root{
+    --cor-primaria:#201211;
+    --cor-secundaria:#290000;
+    --cor-terciaria:#FFFFFF;
+}
+
+body{
+    background-color: var(--cor-primaria);
+    color: var(--cor-terciaria);
+}
+
+h1{
+    font-family: montserrat;
+    font-weight: 500;
+    font-size: 3rem;
+    color: #898080;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.inicio{
+    margin: 3% 5% 0% 5%;
+    align-items: center;
+}
+
+.saiba{
+    color: #000;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    transition: .2s;
+}
+
+.saiba:hover{
+    background-color: #D0D0D0;
+}

@@ -1,0 +1,113 @@
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: var(--cor-secundaria);
+  gap: 100px;
+  } 
+  
+  .logo{
+    width: 100px;
+  }
+  
+  .um{
+    padding: 5px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;  
+  }
+  
+  .um:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .um:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  .dois{
+    padding: 5px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;  
+  }
+  
+  .dois:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .dois:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  .tres{
+    padding: 5px;
+    position: relative;
+    color: #fff;
+    text-decoration: none;  
+  }
+  
+  .tres:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .tres:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+  .login-carrinho{
+    display: flex;
+    flex-direction: row;
+    
+
+  }
+
+   .login{
+  width: 30px;
+  
+}
+
+   .carrinho{
+  width: 33px;
+}
